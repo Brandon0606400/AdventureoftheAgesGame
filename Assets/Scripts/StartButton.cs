@@ -20,7 +20,7 @@ public class StartButton : MonoBehaviour
         PlayerPrefs.DeleteKey("lives");
 
         // Load the first level
-        SceneManager.LoadScene("FirstLevel");
+        SceneManager.LoadScene("TutLevel");
     }
 
 }

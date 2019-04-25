@@ -430,7 +430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 14609985}
-  sceneToLoad: Win
+  sceneToLoad: FirstLevel
 --- !u!212 &572136574
 SpriteRenderer:
   m_ObjectHideFlags: 0
