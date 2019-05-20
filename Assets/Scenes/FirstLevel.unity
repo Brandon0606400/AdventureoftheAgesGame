@@ -1491,7 +1491,7 @@ MonoBehaviour:
   shootButtonRight: ShootRight
   playerAnimator: {fileID: 1123144311}
   playerSprite: {fileID: 1123144308}
-  playerCollider: {fileID: 0}
+  playerCollider: {fileID: 1123144306}
   Shoot: {fileID: 1188581775}
   Death: {fileID: 1123144312}
   LivesObject: {fileID: 739454723}

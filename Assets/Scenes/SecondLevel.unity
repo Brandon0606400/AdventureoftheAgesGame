@@ -230,8 +230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce202a3720e976a45b74440ad372897f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreObject: {fileID: 0}
-  Pickup: {fileID: 0}
+  scoreObject: {fileID: 14609985}
+  Pickup: {fileID: 2092340979}
   collectableValue: 50
 --- !u!58 &29614427
 CircleCollider2D:
@@ -6412,8 +6412,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce202a3720e976a45b74440ad372897f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreObject: {fileID: 0}
-  Pickup: {fileID: 0}
+  scoreObject: {fileID: 14609985}
+  Pickup: {fileID: 2092340979}
   collectableValue: 50
 --- !u!58 &399341297
 CircleCollider2D:
@@ -7151,8 +7151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce202a3720e976a45b74440ad372897f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreObject: {fileID: 0}
-  Pickup: {fileID: 0}
+  scoreObject: {fileID: 14609985}
+  Pickup: {fileID: 2092340979}
   collectableValue: 50
 --- !u!212 &876199092
 SpriteRenderer:
@@ -7465,8 +7465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce202a3720e976a45b74440ad372897f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreObject: {fileID: 0}
-  Pickup: {fileID: 0}
+  scoreObject: {fileID: 14609985}
+  Pickup: {fileID: 2092340979}
   collectableValue: 50
 --- !u!58 &1063935149
 CircleCollider2D:
@@ -11565,8 +11565,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce202a3720e976a45b74440ad372897f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreObject: {fileID: 0}
-  Pickup: {fileID: 0}
+  scoreObject: {fileID: 14609985}
+  Pickup: {fileID: 2092340979}
   collectableValue: 50
 --- !u!58 &1822521188
 CircleCollider2D:
@@ -11986,8 +11986,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce202a3720e976a45b74440ad372897f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreObject: {fileID: 0}
-  Pickup: {fileID: 0}
+  scoreObject: {fileID: 14609985}
+  Pickup: {fileID: 2092340979}
   collectableValue: 1000
 --- !u!58 &2101712258
 CircleCollider2D:

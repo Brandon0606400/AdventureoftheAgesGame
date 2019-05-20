@@ -53,7 +53,8 @@ public class Player : MonoBehaviour {
         physicsBody.velocity = velocity;
 
         //Tell the animator our speed
-        playerAnimator.SetFloat("Walk", Mathf.Abs(velocity.x));
+        playerAnimator.SetFloat("Horizontal", Mathf.Abs(velocity.x));
+        playerAnimator.SetFloat("Vertical", velocity.y);
 
         //Flip our sprite if we're moving backwards
         if (velocity.x < 0)
