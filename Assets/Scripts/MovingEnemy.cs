@@ -8,7 +8,6 @@ public class MovingEnemy : MonoBehaviour {
     public Rigidbody2D physicsBody;
     public Collider2D playerCollider;
     private Transform target;
-    public Enemyrespawn spawnpoint;
     
     public AudioSource EnemyHurt;
 
@@ -41,15 +40,8 @@ public class MovingEnemy : MonoBehaviour {
         }
     }
 
-    public void killFly()
+    public void killGuy()
     {
-        //gets reference to script called "GameManager", and calls the SpawnAlien() function to respawn itself
-        spawnpoint.Death = true;
-
-        EnemyHurt.Play();
-
-        
-
         //destroys itself after calling SpawnAlien() function
         Destroy(gameObject);
     }

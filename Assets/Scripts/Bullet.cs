@@ -27,7 +27,7 @@ public class Bullet : MonoBehaviour {
         {
             //We did hit the player
             //Kill them
-            movingEnemyScript.killFly();
+            movingEnemyScript.killGuy();
             Destroy(gameObject);
         }
         else 

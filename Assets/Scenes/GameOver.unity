@@ -285,7 +285,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000019073, y: -36.4}
+  m_AnchoredPosition: {x: -0.0000019073, y: -97}
   m_SizeDelta: {x: 113.91, y: 45.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &459876831
@@ -417,8 +417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 54.9}
-  m_SizeDelta: {x: 282.7, y: 109.8}
+  m_AnchoredPosition: {x: 0.4, y: 35.6}
+  m_SizeDelta: {x: 329.8, y: 189.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &519093174
 MonoBehaviour:
@@ -452,7 +452,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You have died Game over.
+  m_Text: "You have failed to collect the treasure! \nTry Again"
 --- !u!222 &519093175
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -799,7 +799,7 @@ SpriteRenderer:
   m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1207329604

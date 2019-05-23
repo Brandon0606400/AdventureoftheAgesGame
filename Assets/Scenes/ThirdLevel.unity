@@ -706,7 +706,6 @@ MonoBehaviour:
   speed: 0
   physicsBody: {fileID: 551369766}
   playerCollider: {fileID: 551369767}
-  spawnpoint: {fileID: 0}
   EnemyHurt: {fileID: 1417285676}
 --- !u!50 &551369766
 Rigidbody2D:
@@ -950,7 +949,6 @@ MonoBehaviour:
   speed: 0
   physicsBody: {fileID: 580226670}
   playerCollider: {fileID: 580226671}
-  spawnpoint: {fileID: 0}
   EnemyHurt: {fileID: 1417285676}
 --- !u!50 &580226670
 Rigidbody2D:
@@ -1359,7 +1357,6 @@ MonoBehaviour:
   speed: 0
   physicsBody: {fileID: 937071643}
   playerCollider: {fileID: 937071644}
-  spawnpoint: {fileID: 0}
   EnemyHurt: {fileID: 1417285676}
 --- !u!50 &937071643
 Rigidbody2D:
@@ -1488,7 +1485,6 @@ MonoBehaviour:
   speed: 0
   physicsBody: {fileID: 975447708}
   playerCollider: {fileID: 975447709}
-  spawnpoint: {fileID: 0}
   EnemyHurt: {fileID: 1417285676}
 --- !u!50 &975447708
 Rigidbody2D:
@@ -2479,7 +2475,7 @@ GameObject:
   - component: {fileID: 1417285677}
   - component: {fileID: 1417285676}
   m_Layer: 0
-  m_Name: FlyDeathSFX
+  m_Name: GuyDeathSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
