@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Extra using statement to allow us to use the scene management functions
+// Extra using statement to allow us to use the scene management functions
 using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
 
     // Variable to let us add to the score 
-    //      Public so we can drag and drop
+    // Public so we can drag and drop
     public Score scoreObject;
 
     //Designer Variables
@@ -22,17 +22,17 @@ public class Door : MonoBehaviour
         //is the player (aka has the player script)
         Player playerScript = collision.collider.GetComponent<Player>();
 
-        //Only do someting if the thing we ran into
-        //was the player
-        //aka playerScript is not null
+        // Only do someting if the thing we ran into
+        // was the player
+        // aka playerScript is not null
         if (playerScript != null)
         {
-            //We did hit the player
+            // We did hit the player
 
             // Save the score using our score object reference
             scoreObject.SaveScore();
 
-            //Load the next level
+            // Load the next level
             SceneManager.LoadScene(sceneToLoad);
         }
     }

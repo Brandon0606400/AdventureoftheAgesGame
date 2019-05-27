@@ -18,10 +18,12 @@ public class Player : MonoBehaviour {
     public string shootButtonLeft = "shootButtonLeft";
     public string shootButtonRight = "shootButtonRight";
 
+    // Sprite related variables
     public Animator playerAnimator;
     public SpriteRenderer playerSprite;
     public Collider2D playerCollider;
 
+    // Audio variables
     public AudioSource Shoot;
     public AudioSource Death;
 
@@ -142,6 +144,7 @@ public class Player : MonoBehaviour {
             //by passing the build index of our level
             SceneManager.LoadScene(currentLevel.buildIndex);
 
+            // Death sound play when player is killed
             Death.Play();
         }
     }

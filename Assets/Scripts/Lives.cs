@@ -25,17 +25,20 @@ public class Lives : MonoBehaviour
 
     }
 
+    // This removes one life when the player dies
     public void LoseLife()
     {
         numericalLives = numericalLives - 1;
         LivesText.text = numericalLives.ToString();
     }
 
+    // This saves the life count after losing one
     public void SaveLives()
     {
         PlayerPrefs.SetInt("lives", numericalLives);
     }
 
+    // Displays the game over screen when on zero lifes
     public bool IsGameOver()
     {
         if (numericalLives <= 0)

@@ -42,7 +42,7 @@ public class MovingEnemy : MonoBehaviour {
 
     public void killGuy()
     {
-        //destroys itself after calling SpawnAlien() function
+        //destroys when colliding with bullet
         Destroy(gameObject);
     }
 

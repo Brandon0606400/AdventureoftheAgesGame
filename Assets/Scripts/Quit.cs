@@ -12,6 +12,7 @@ public class Quit : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        // Quick closing of game when testing
         if (Input.GetKey("escape"))
         {
             Application.Quit();
