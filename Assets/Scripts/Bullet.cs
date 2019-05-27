@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public Score scoreObject;
+    public int collectableValue;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -29,6 +32,7 @@ public class Bullet : MonoBehaviour {
             //Kill them
             movingEnemyScript.killGuy();
             Destroy(gameObject);
+            scoreObject.AddScore(collectableValue);
         }
         else 
         {

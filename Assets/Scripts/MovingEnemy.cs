@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MovingEnemy : MonoBehaviour {
-
+    
     public float speed;
     public Rigidbody2D physicsBody;
     public Collider2D playerCollider;
